@@ -1,3 +1,4 @@
+// This script handles the dynamic content loading and form validation for the portfolio page.
 document.addEventListener('DOMContentLoaded', async () => {
     const aboutMeData = await fetch('starter/data/aboutMeData.json').then(response => response.json());
     const projectsData = await fetch('starter/data/projectsData.json').then(response => response.json());
